@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explicando Tags</title>
+</head>
+<body>
+    <h1>Primeiro exercicio Proposto</h1>
+
+    <h2>Explicando as tags apresentadas nas aulas.</h2>
+
+    <p>Começando pela tags de cabeçalhos (headings), que vai de <b>&lt;H1&gt;</b> a <b>&lt;H6&gt;</b>, seguindo do mais importante ao menos importante em ordem decrescente. Utilizados para definição do titulo e subtitulos da estrutura do site.</p>
+
+    <p>A tag <b>&lt;p&gt;</b>, é usada para a criação dos paragrafos.</p>
+
+    <p>Seguido pela tag <b>&lt;hr&gt;</b>, que cria uma linha horizontal como mostra logo abraixo. </p>
+
+    <hr>
+
+    <h3>Ênfase e Formatação:</h3>
+
+    <p>A tag <b>&lt;em&gt;</b> e a tag <b>&lt;i&gt;</b> possuem um resultado visual ideintico, porem o significado semântico é diferente. A tag <b>&lt;em&gt;</b> representa ênfase importante de seus conteúdos, enquanto que a tag <b>&lt;i&gt;</b> representa o texto que é iniciado de uma prosa, como uma palavra estrangeira, pensamentos de um personagem ficcional, ou quando o texto se refere á definição de uma palavra em vez de representar seu significado semântico.</p>
+
+    <p>A tag <strong>&lt;strong&gt;</strong> é usada para exibir o texto em negrito, dando ênfase ao texto em partes importantes, ao contrario da tag <b>&lt;b&gt;</b> que apenas deixa o texto visualmente em negrito, mas ainda usado em partes importantes que precisam ser destacadas.</p>
+
+    <p>A tag <b><mark>&lt;mark&gt;</mark></b> como o próprio nome sugere, faz com que o texto fique marcado.</p>
+
+    <p><small>A tag <b>&lt;small&gt;</b>, deixa o texto menor, geralmente usado em notas nos rodapes das paginas, avisos legais, etc.</small></p>
+
+    <p><u>A tag <b>&lt;u&gt;</b>, deixa o texto sublinhado como nesse exemplo. </u></p>
+
+    <hr>
+    <h3>Tags usadas para criar listas</h3>
+
+    <p>Existem dois tipos de listas, ordenadas <b>&lt;ol&gt;</b> que pode ser exibida com numeros arábicos, letras, e numeros romanos. E as listas não ordenadas <b>&lt;ul&gt;</b>, que são exibida com marcadores.</p>
+
+    <p>Para selecionar o tipo de indicativo que tera a lista ordenada devemos fazer o seguinte comando: <b>&lt;ol type=""&gt</b>, dentro das aspas dupas colocaremos (1,a,A,i ou I) para selecionar o tipo. </p>
+
+    <ol type="1">
+        <li> item 1</li>
+        <li> item 2</li>
+        <li> item 3</li>
+    </ol>
+
+    <ol type="I">
+        <li> item 1</li>
+        <li> item 2</li>
+        <li> item 3</li>
+    </ol>
+
+    <p>A seguir dentro da lista usamos a tag <b>&lt;li&gt;</b> para criar os itens da lista, alem de ser possivel usar tag <b>&lt;ol&gt;</b> e <b>&lt;ul&gt;</b> dentro dela mesma para criar sub itens da lista.</p>
+
+    <ol type="1">
+        <li> item 1</li>
+            <ol>
+                <li> item 1.1</li>
+                <li> item 1.2</li>
+                <li> item 1.3</li>
+            </ol>
+        <li> item 2</li>
+        <li> item 3</li>
+    </ol>
+
+    <hr>
+
+    <h3>Links e citações:</h3>
+
+    <p>A tag <b>&lt;blockquote&gt;</b> serve para criar citações em blocos, usadas para criar citações mais longas como no exemplo abaixo.</p>
+
+    <blockquote>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, iure laborum. Ratione dolore sint fuga possimus minima ab a. Accusamus aut eius dolores laudantium sit mollitia neque voluptas voluptatum nemo.
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum eum eaque similique ipsam repudiandae enim modi aliquid. Provident tenetur laudantium, autem iure eum maxime porro odit sunt sapiente perspiciatis ad".
+    </blockquote>
+
+    <p>A tag <b>&lt;a&gt;</b> (anchor), é usada para ancorar links para outras paginas ou sites, até mesmo para um lugar especifico do texto na mesma pagina. </p>
+
+    <hr>
+
+    <h3>Subscrito e Sobrescrito:</h3>
+
+    <p>A tag <b>&lt;sub&gt;</b> (subscript), é bastante utilizada em formulas de química como <b>H<sub>2</sub>O</b>, ou em notas de rodapé.</p>
+
+    <p>A tag <b>&lt;sup&gt;</b> (superscript), é geralmente usada para expoentes <b>(X<sup>2</sup>)</b>.</p>
+    <hr>
+    
+    <h4>Novas tags sugeridas no exercício:</h4>
+
+    <p> A tag <b>&lt;font&gt;</b>, atualmente está obsoleta, era usada para definir o estilo da fonte (tipo, tamanho, cor) em HTML. No entanto, ela foi declarada obsoleta e não é mais recomendada para uso, assim utilizando o CSS para fazer as estilizações necessarias.</p>
+
+    <p>A tag <b>&lt;del&gt;</b> indica que uma parte do texto foi excluída ou removida de um documento. O texto dentro da tag geralmente é exibido com um risco horizontal no meio. como no exemplo a seguir.</p>
+    <blockquote><del>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, delectus aperiam sit quod quos officiis corrupti necessitatibus modi nulla fuga, doloribus quam, iste blanditiis quia maiores dolorum. Perspiciatis, sit quaerat.</del></blockquote>
+
+    <p>A tag <b>&lt;abbr&gt;</b> cria uma abreviação, para uma frase ou palavra, uma muito utilizada atualmente é <b><abbr title="Obrigado">OBG</abbr></b>, e ao passar o ponteiro por cima dela é possíel ver seu significado completo. </p>
+
+    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">TAGS HTML</a>
+
+</body>
+</html>
